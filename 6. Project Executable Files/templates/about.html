@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="about-wrapper">
+
+    <!-- Heading -->
+    <div class="about-heading">
+        <span>ABOUT</span>
+        <h1>The Project Involves</h1>
+    </div>
+
+    <!-- Content Row -->
+    <div class="about-content">
+
+        <!-- Left Text -->
+        <div class="about-text">
+            <p>
+                <strong>Data collection</strong> is the process of gathering and measuring
+                information on variables of interest in a systematic manner to answer
+                research questions and evaluate outcomes.
+            </p>
+
+            <p>
+                <strong>Data preparation</strong> involves cleaning, transforming, and
+                organizing data to ensure accuracy and reliability of analysis.
+            </p>
+
+            <p>
+                <strong>Data visualization</strong> helps represent data graphically using
+                charts, graphs, and dashboards to identify trends and insights.
+            </p>
+        </div>
+
+        <!-- Right Image -->
+        <div class="about-image">
+            <img src="{{ url_for('static', filename='images/about-bg.jpg') }}" alt="Product Placement">
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

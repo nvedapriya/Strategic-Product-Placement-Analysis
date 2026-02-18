@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: #1f2933;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.navbar p {
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.description, .dashboard {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2933;
+    color: white;
+    margin-top: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url("/static/images/bg.jpg") center/cover no-repeat;
+    color: white;
+}
+
+/* Page container */
+.page {
+    min-height: 100vh;
+    padding: 80px 40px;
+    background: rgba(0, 0, 0, 0.65); /* dark overlay for readability */
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ff00;
+}
+
+/* Titles */
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 90vh;
+    border: none;
+}
+iframe {
+    background: white;
+    border-radius: 10px;
+}
+
+
+
+/* HOME CENTER CONTENT */
+.home-center {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-center h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.home-center p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* FOOTER TEAM */
+.team-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ABOUT CENTER */
+.about-center {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-center h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-center p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* CONTACT PAGE */
+.contact-section {
+    padding: 60px 80px;
+    color: #fff;
+}
+
+.contact-header span {
+    color: #22c55e;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-header h1 {
+    font-size: 42px;
+    margin-top: 10px;
+}
+
+/* LAYOUT */
+.contact-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* LEFT INFO */
+.contact-info {
+    width: 35%;
+}
+
+.info-box {
+    background: rgba(255,255,255,0.06);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-box h3 {
+    color: #22c55e;
+    margin-bottom: 8px;
+}
+
+/* FORM */
+.contact-form {
+    width: 65%;
+    background: rgba(255,255,255,0.06);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 14px;
+    margin-bottom: 18px;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #bbb;
+}
+
+.contact-form button {
+    width: 180px;
+    background: #22c55e;
+    border: none;
+    padding: 12px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #16a34a;
+}
+
+/* ABOUT PAGE LAYOUT FIX */
+
+.about-wrapper {
+    min-height: 100vh;
+    padding: 120px 80px 60px; /* pushes below navbar */
+}
+
+/* Heading center */
+.about-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-heading span {
+    color: #facc15;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.about-heading h1 {
+    font-size: 44px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Main content row */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left text */
+.about-text {
+    width: 50%;
+    color: #e5e7eb;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+/* Right image */
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+}
